@@ -1,7 +1,7 @@
 # restaurantApps
 submission Course Front End Web Expert
 
-## Materi di  yang diajarkan
+## Materi yang diajarkan
 > Mobile First Appoarch
 > 
 > Aksesibilitas
