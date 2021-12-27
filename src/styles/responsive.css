@@ -1,0 +1,141 @@
+@media screen and (max-width: 1030px) {
+  .card {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-row-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .detail-menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .review {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 875px) {
+  #title-app {
+    flex-direction: column;
+  }
+
+  .nav_list {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .nav_item {
+    border-bottom: 1px solid black;
+    text-align: center;
+  }
+
+  .header_title img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .header_title {
+    text-align: center;
+    display: block;
+    border-bottom: 1px solid #eeeeee;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .card-detail {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .detail-consumer {
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .review {
+    display: grid;
+    margin: 0 0 10px 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .card {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .detail-info img {
+    width: 80%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  #title-app {
+    display: grid;
+    justify-content: center;
+  }
+
+  .header__menu {
+    display: block;
+    background-color: transparent;
+    border: none;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+  }
+
+  .header__menu:hover {
+    font-weight: bold;
+  }
+
+  .nav {
+    z-index: 10;
+    background-color: #fff;
+    width: 300px;
+    position: absolute;
+    -webkit-transform: translate(-300px, 0);
+    transform: translate(-300px, 0);
+    transition: transform 0.3s ease;
+  }
+
+  .open {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+  .nav_list {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .nav_item {
+    margin: 0 auto;
+    display: list-item;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card-item {
+    margin: 0;
+  }
+
+  .post {
+    margin: 10px;
+  }
+}

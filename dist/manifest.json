@@ -1,0 +1,41 @@
+{
+  "name": "Resto Recommended For You",
+  "short_name": "Resto",
+  "description": "Free Catalogue Resto for you",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#d84315",
+  "icons": [
+    {
+      "src": "/icon/fork-32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon/fork-64.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon/fork-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon/fork-256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon/fork-512.png",
+      "sizes": "512x511",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
